@@ -1,0 +1,16 @@
+1.https://github.com/ 注册账号
+2.下载git  
+3. git clone https://github.com/1039510121/csp_study.git 拉取项目
+
+
+
+1. 拉取项目最新信息  git pull
+2. 提交代码
+    1. git add orign main
+    2. git commit -m "2022-8-2的作业"
+    3. git push origin main
+
+
+tree
+cmd
+powershell
