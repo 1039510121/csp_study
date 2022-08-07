@@ -6,8 +6,6 @@ const int INF=0x3f3f3f3f;
 int n;
 int a[N];
 int ans=-INF;
-DFS(i)---->DFS(i+1)
-dp[i]--->dp[i+1];
 void DFS(int x,int maxx){
     //cout<<maxx<<endl;
     ans=max(ans,maxx);
@@ -28,10 +26,14 @@ int main(){
     DFS(1,a[1]);
     cout<<ans<<endl;
 }
+
+
+/*
 子串 连续
 子序列 可以不连续 但是位序要递增
 
 最长上升子序列 a[i]<a[j] i<j  
+
 /*
 7
 -2 5 -3 -1 -2 -4 -3
