@@ -3,6 +3,12 @@ using namespace std;
 const int INF=0x3f3f3f3f;
 const int N=1000000;
 typedef long long ll;
+2. 二分图
+
+
+
+
+/*
 int vis[N];
 int prime[N];
 //o(n*loglog(n))
@@ -36,6 +42,13 @@ void init_prime2(){
         }
     }
 }
+
+f[i]
+
+欧拉函数
+
+ph[i] [1,i-1]与i互质的个数
+
 15 5
 f(x): x的因子个数
 输入一个n n<=1e5
